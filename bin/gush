@@ -49,6 +49,7 @@ $adapters = [
     'github_enterprise' => 'Gush\Adapter\GitHubEnterpriseFactory',
     'bitbucket' => 'Gush\Adapter\BitbucketFactory',
     'gitlab' => 'Gush\Adapter\GitLabFactory',
+    'elephant' => 'Gush\Adapter\ElephantFactory'
 ];
 
 foreach ($adapters as $adapterName => $factoryClass) {
